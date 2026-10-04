@@ -1,0 +1,19 @@
+[2026-10-04 14:26:48.414] [info] [thread 13741] [daheng_test.cpp main:168] daheng_test 启动
+[2026-10-04 14:26:48.439] [debug] [thread 13741] [daheng_test.cpp main:171] GXInitLib status = 0
+[2026-10-04 14:26:49.451] [info] [thread 13741] [daheng_test.cpp EnumerateDevices:52] 共找到 1 台设备:
+[2026-10-04 14:26:49.451] [info] [thread 13741] [daheng_test.cpp EnumerateDevices:64]   [1] 型号: MER-230-168U3C  序列号: NE0190010001
+[2026-10-04 14:26:49.451] [info] [thread 13741] [daheng_test.cpp main:185] 用法: ./daheng_test <相机序列号>
+[2026-10-04 14:30:08.129] [info] [thread 14163] [daheng_test.cpp main:168] daheng_test 启动
+[2026-10-04 14:30:08.166] [debug] [thread 14163] [daheng_test.cpp main:171] GXInitLib status = 0
+[2026-10-04 14:30:09.178] [info] [thread 14163] [daheng_test.cpp EnumerateDevices:52] 共找到 1 台设备:
+[2026-10-04 14:30:09.178] [info] [thread 14163] [daheng_test.cpp EnumerateDevices:64]   [1] 型号: MER-230-168U3C  序列号: NE0190010001
+[2026-10-04 14:30:09.949] [info] [thread 14163] [daheng_test.cpp main:207] 打开相机 NE0190010001 成功
+[2026-10-04 14:30:09.984] [info] [thread 14163] [daheng_test.cpp main:254] 分辨率 1920x1200
+[2026-10-04 14:30:10.000] [info] [thread 14163] [daheng_test.cpp main:307] 取流开始,按 e/d 调曝光、a/q 调增益、s/w 调伽马、ESC 退出
+[2026-10-04 14:30:10.151] [info] [thread 14163] [daheng_test.cpp AddExposureTime:102] 曝光时间 -> 2300 us
+[2026-10-04 14:30:10.205] [info] [thread 14163] [daheng_test.cpp AddExposureTime:102] 曝光时间 -> 2275 us
+[2026-10-04 14:30:10.266] [warning] [thread 14163] [daheng_test.cpp AddGain:122] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:30:10.323] [info] [thread 14163] [daheng_test.cpp AddGain:125] 增益 -> 23.9 dB
+[2026-10-04 14:30:10.374] [warning] [thread 14163] [daheng_test.cpp AddGamma:135] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:30:10.433] [warning] [thread 14163] [daheng_test.cpp AddGamma:135] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:30:10.667] [info] [thread 14163] [daheng_test.cpp main:378] 相机已关闭

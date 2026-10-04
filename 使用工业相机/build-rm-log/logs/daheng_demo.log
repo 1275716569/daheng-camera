@@ -1,0 +1,253 @@
+[2026-10-04 14:26:47.366] [info] [thread 13686] [daheng_demo.cpp main:197] daheng_demo 启动
+[2026-10-04 14:26:47.388] [debug] [thread 13686] [daheng_demo.cpp main:201] GXInitLib status = 0
+[2026-10-04 14:26:48.400] [info] [thread 13686] [daheng_demo.cpp EnumerateDevices:77] 共找到 1 台设备:
+[2026-10-04 14:26:48.400] [info] [thread 13686] [daheng_demo.cpp EnumerateDevices:89]   [1] 型号: MER-230-168U3C  序列号: NE0190010001
+[2026-10-04 14:26:48.400] [info] [thread 13686] [daheng_demo.cpp main:215] 用法: ./daheng_demo <相机序列号>
+[2026-10-04 14:30:05.568] [info] [thread 14089] [daheng_demo.cpp main:197] daheng_demo 启动
+[2026-10-04 14:30:05.599] [debug] [thread 14089] [daheng_demo.cpp main:201] GXInitLib status = 0
+[2026-10-04 14:30:06.613] [info] [thread 14089] [daheng_demo.cpp EnumerateDevices:77] 共找到 1 台设备:
+[2026-10-04 14:30:06.613] [info] [thread 14089] [daheng_demo.cpp EnumerateDevices:89]   [1] 型号: MER-230-168U3C  序列号: NE0190010001
+[2026-10-04 14:30:07.389] [info] [thread 14089] [daheng_demo.cpp main:237] 打开相机 NE0190010001 成功
+[2026-10-04 14:30:07.421] [info] [thread 14089] [daheng_demo.cpp main:286] 分辨率 1920x1200
+[2026-10-04 14:30:07.437] [info] [thread 14089] [daheng_demo.cpp main:339] 取流开始,按 e/d 调曝光、a/q 调增益、s/w 调伽马、ESC 退出
+[2026-10-04 14:30:07.594] [info] [thread 14089] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2300 us
+[2026-10-04 14:30:07.650] [info] [thread 14089] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2275 us
+[2026-10-04 14:30:07.710] [warning] [thread 14089] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:30:07.765] [info] [thread 14089] [daheng_demo.cpp AddGain:153] 增益 -> 23.9 dB
+[2026-10-04 14:30:07.818] [warning] [thread 14089] [daheng_demo.cpp AddGamma:163] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:30:07.877] [warning] [thread 14089] [daheng_demo.cpp AddGamma:163] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:30:08.115] [info] [thread 14089] [daheng_demo.cpp main:410] 相机已关闭
+[2026-10-04 14:36:56.846] [info] [thread 14574] [daheng_demo.cpp main:197] daheng_demo 启动
+[2026-10-04 14:36:56.867] [debug] [thread 14574] [daheng_demo.cpp main:201] GXInitLib status = 0
+[2026-10-04 14:36:57.877] [info] [thread 14574] [daheng_demo.cpp EnumerateDevices:77] 共找到 1 台设备:
+[2026-10-04 14:36:57.877] [info] [thread 14574] [daheng_demo.cpp EnumerateDevices:89]   [1] 型号: MER-230-168U3C  序列号: NE0190010001
+[2026-10-04 14:36:57.877] [info] [thread 14574] [daheng_demo.cpp main:215] 用法: ./daheng_demo <相机序列号>
+[2026-10-04 14:37:28.093] [info] [thread 14691] [daheng_demo.cpp main:197] daheng_demo 启动
+[2026-10-04 14:37:28.113] [debug] [thread 14691] [daheng_demo.cpp main:201] GXInitLib status = 0
+[2026-10-04 14:37:29.124] [info] [thread 14691] [daheng_demo.cpp EnumerateDevices:77] 共找到 1 台设备:
+[2026-10-04 14:37:29.124] [info] [thread 14691] [daheng_demo.cpp EnumerateDevices:89]   [1] 型号: MER-230-168U3C  序列号: NE0190010001
+[2026-10-04 14:37:29.895] [info] [thread 14691] [daheng_demo.cpp main:237] 打开相机 NE0190010001 成功
+[2026-10-04 14:37:29.928] [info] [thread 14691] [daheng_demo.cpp main:286] 分辨率 1920x1200
+[2026-10-04 14:37:29.945] [info] [thread 14691] [daheng_demo.cpp main:339] 取流开始,按 e/d 调曝光、a/q 调增益、s/w 调伽马、ESC 退出
+[2026-10-04 14:37:36.802] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.9 dB
+[2026-10-04 14:37:37.129] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.799999999999997 dB
+[2026-10-04 14:37:37.361] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.7 dB
+[2026-10-04 14:37:37.891] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.599999999999998 dB
+[2026-10-04 14:37:38.234] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.5 dB
+[2026-10-04 14:37:38.698] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.6 dB
+[2026-10-04 14:37:39.197] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.700000000000003 dB
+[2026-10-04 14:37:39.228] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.8 dB
+[2026-10-04 14:37:39.258] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.900000000000002 dB
+[2026-10-04 14:37:39.286] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 24 dB
+[2026-10-04 14:37:39.318] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.352] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.380] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.410] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.441] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.470] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.500] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.530] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.565] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.594] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.624] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.653] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.684] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.713] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.743] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:39.773] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:40.006] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.9 dB
+[2026-10-04 14:37:40.509] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.799999999999997 dB
+[2026-10-04 14:37:40.542] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.7 dB
+[2026-10-04 14:37:40.570] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.599999999999998 dB
+[2026-10-04 14:37:40.601] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.5 dB
+[2026-10-04 14:37:40.631] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.4 dB
+[2026-10-04 14:37:40.665] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.299999999999997 dB
+[2026-10-04 14:37:40.695] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.2 dB
+[2026-10-04 14:37:40.725] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.099999999999998 dB
+[2026-10-04 14:37:40.755] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23 dB
+[2026-10-04 14:37:40.784] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.9 dB
+[2026-10-04 14:37:40.817] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.799999999999997 dB
+[2026-10-04 14:37:40.844] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.7 dB
+[2026-10-04 14:37:40.880] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.599999999999998 dB
+[2026-10-04 14:37:40.908] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.5 dB
+[2026-10-04 14:37:40.939] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.4 dB
+[2026-10-04 14:37:40.976] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.299999999999997 dB
+[2026-10-04 14:37:41.005] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.2 dB
+[2026-10-04 14:37:41.035] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.099999999999998 dB
+[2026-10-04 14:37:41.064] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22 dB
+[2026-10-04 14:37:41.095] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.9 dB
+[2026-10-04 14:37:41.122] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.799999999999997 dB
+[2026-10-04 14:37:41.157] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.7 dB
+[2026-10-04 14:37:41.185] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.599999999999998 dB
+[2026-10-04 14:37:41.218] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.5 dB
+[2026-10-04 14:37:41.247] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.4 dB
+[2026-10-04 14:37:41.278] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.299999999999997 dB
+[2026-10-04 14:37:41.307] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.2 dB
+[2026-10-04 14:37:41.336] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.099999999999998 dB
+[2026-10-04 14:37:41.367] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21 dB
+[2026-10-04 14:37:41.402] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.9 dB
+[2026-10-04 14:37:41.427] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.799999999999997 dB
+[2026-10-04 14:37:41.461] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.7 dB
+[2026-10-04 14:37:41.492] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.599999999999998 dB
+[2026-10-04 14:37:41.520] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.5 dB
+[2026-10-04 14:37:41.551] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.4 dB
+[2026-10-04 14:37:41.580] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.299999999999997 dB
+[2026-10-04 14:37:41.610] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.2 dB
+[2026-10-04 14:37:41.639] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.099999999999998 dB
+[2026-10-04 14:37:41.670] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20 dB
+[2026-10-04 14:37:42.770] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.1 dB
+[2026-10-04 14:37:43.267] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.200000000000003 dB
+[2026-10-04 14:37:43.298] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.3 dB
+[2026-10-04 14:37:43.328] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.400000000000002 dB
+[2026-10-04 14:37:43.362] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.5 dB
+[2026-10-04 14:37:43.392] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.6 dB
+[2026-10-04 14:37:43.417] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.700000000000003 dB
+[2026-10-04 14:37:43.451] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.8 dB
+[2026-10-04 14:37:43.481] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 20.900000000000002 dB
+[2026-10-04 14:37:43.512] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21 dB
+[2026-10-04 14:37:43.544] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.1 dB
+[2026-10-04 14:37:43.572] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.200000000000003 dB
+[2026-10-04 14:37:43.600] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.3 dB
+[2026-10-04 14:37:43.637] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.400000000000002 dB
+[2026-10-04 14:37:43.662] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.5 dB
+[2026-10-04 14:37:43.696] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.6 dB
+[2026-10-04 14:37:43.725] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.700000000000003 dB
+[2026-10-04 14:37:43.755] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.8 dB
+[2026-10-04 14:37:43.785] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 21.900000000000002 dB
+[2026-10-04 14:37:43.820] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22 dB
+[2026-10-04 14:37:43.850] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.1 dB
+[2026-10-04 14:37:43.881] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.200000000000003 dB
+[2026-10-04 14:37:43.909] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.3 dB
+[2026-10-04 14:37:43.940] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.400000000000002 dB
+[2026-10-04 14:37:43.971] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.5 dB
+[2026-10-04 14:37:44.004] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.6 dB
+[2026-10-04 14:37:44.036] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.700000000000003 dB
+[2026-10-04 14:37:44.064] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.8 dB
+[2026-10-04 14:37:44.093] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.900000000000002 dB
+[2026-10-04 14:37:44.125] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23 dB
+[2026-10-04 14:37:44.160] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.1 dB
+[2026-10-04 14:37:44.189] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.200000000000003 dB
+[2026-10-04 14:37:44.219] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.3 dB
+[2026-10-04 14:37:44.250] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.400000000000002 dB
+[2026-10-04 14:37:44.278] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.5 dB
+[2026-10-04 14:37:44.309] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.6 dB
+[2026-10-04 14:37:44.347] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = 49671): {49671}{Write:line[74]}{{49671}{_ReveiveAck:line[299]}{USB3 Vision Error:Wrong status code of U3V acknowledgment packet from device: 0xC207}}
+[2026-10-04 14:37:44.369] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.700000000000003 dB
+[2026-10-04 14:37:44.403] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.8 dB
+[2026-10-04 14:37:44.432] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.900000000000002 dB
+[2026-10-04 14:37:44.462] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 24 dB
+[2026-10-04 14:37:44.491] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:44.522] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:44.551] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:44.582] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:44.611] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:44.646] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:45.461] [warning] [thread 14691] [daheng_demo.cpp AddGain:150] GXSetFloatValue Gain 失败 (status = -11): {-11}{DoSetFloat:line[355]}{Value 24.100000 must be smaller than or equal 24.000000. : OutOfRangeException thrown in node 'Gain' while calling 'Gain.SetValue()' (file 'FloatT.h', line 87)}
+[2026-10-04 14:37:47.772] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.9 dB
+[2026-10-04 14:37:48.273] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.799999999999997 dB
+[2026-10-04 14:37:48.302] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.7 dB
+[2026-10-04 14:37:48.331] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.599999999999998 dB
+[2026-10-04 14:37:48.367] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.5 dB
+[2026-10-04 14:37:48.397] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.4 dB
+[2026-10-04 14:37:48.426] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.299999999999997 dB
+[2026-10-04 14:37:48.456] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.2 dB
+[2026-10-04 14:37:48.492] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23.099999999999998 dB
+[2026-10-04 14:37:48.518] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 23 dB
+[2026-10-04 14:37:48.550] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.9 dB
+[2026-10-04 14:37:48.579] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.799999999999997 dB
+[2026-10-04 14:37:48.611] [info] [thread 14691] [daheng_demo.cpp AddGain:153] 增益 -> 22.7 dB
+[2026-10-04 14:37:49.517] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2250 us
+[2026-10-04 14:37:50.014] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2225 us
+[2026-10-04 14:37:50.043] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2200 us
+[2026-10-04 14:37:50.073] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2175 us
+[2026-10-04 14:37:50.101] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2150 us
+[2026-10-04 14:37:50.131] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2125 us
+[2026-10-04 14:37:50.162] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2100 us
+[2026-10-04 14:37:50.192] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2075 us
+[2026-10-04 14:37:50.224] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2050 us
+[2026-10-04 14:37:50.257] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2025 us
+[2026-10-04 14:37:50.287] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2000 us
+[2026-10-04 14:37:50.317] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 1975 us
+[2026-10-04 14:37:50.347] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 1950 us
+[2026-10-04 14:37:50.383] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 1925 us
+[2026-10-04 14:37:50.620] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 1950 us
+[2026-10-04 14:37:51.124] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 1975 us
+[2026-10-04 14:37:51.155] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2000 us
+[2026-10-04 14:37:51.184] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2025 us
+[2026-10-04 14:37:51.220] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2050 us
+[2026-10-04 14:37:51.247] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2075 us
+[2026-10-04 14:37:51.280] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2100 us
+[2026-10-04 14:37:51.309] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2125 us
+[2026-10-04 14:37:51.340] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2150 us
+[2026-10-04 14:37:51.374] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2175 us
+[2026-10-04 14:37:51.405] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2200 us
+[2026-10-04 14:37:51.433] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2225 us
+[2026-10-04 14:37:51.464] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2250 us
+[2026-10-04 14:37:51.499] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2275 us
+[2026-10-04 14:37:51.526] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2300 us
+[2026-10-04 14:37:51.558] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2325 us
+[2026-10-04 14:37:51.588] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2350 us
+[2026-10-04 14:37:51.619] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2375 us
+[2026-10-04 14:37:51.654] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2400 us
+[2026-10-04 14:37:51.683] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2425 us
+[2026-10-04 14:37:51.713] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2450 us
+[2026-10-04 14:37:51.744] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2475 us
+[2026-10-04 14:37:51.773] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2500 us
+[2026-10-04 14:37:51.803] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2525 us
+[2026-10-04 14:37:51.838] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2550 us
+[2026-10-04 14:37:51.868] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2575 us
+[2026-10-04 14:37:51.898] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2600 us
+[2026-10-04 14:37:51.927] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2625 us
+[2026-10-04 14:37:51.957] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2650 us
+[2026-10-04 14:37:51.988] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2675 us
+[2026-10-04 14:37:52.023] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2700 us
+[2026-10-04 14:37:52.050] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2725 us
+[2026-10-04 14:37:52.079] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2750 us
+[2026-10-04 14:37:52.112] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2775 us
+[2026-10-04 14:37:52.142] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2800 us
+[2026-10-04 14:37:52.174] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2825 us
+[2026-10-04 14:37:52.202] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2850 us
+[2026-10-04 14:37:52.232] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2875 us
+[2026-10-04 14:37:52.267] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2900 us
+[2026-10-04 14:37:52.298] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2925 us
+[2026-10-04 14:37:52.327] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2950 us
+[2026-10-04 14:37:52.364] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 2975 us
+[2026-10-04 14:37:52.391] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3000 us
+[2026-10-04 14:37:52.420] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3025 us
+[2026-10-04 14:37:52.451] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3050 us
+[2026-10-04 14:37:52.481] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3075 us
+[2026-10-04 14:37:52.509] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3100 us
+[2026-10-04 14:37:52.541] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3125 us
+[2026-10-04 14:37:52.575] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3150 us
+[2026-10-04 14:37:52.603] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3175 us
+[2026-10-04 14:37:52.637] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3200 us
+[2026-10-04 14:37:52.665] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3225 us
+[2026-10-04 14:37:52.701] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3250 us
+[2026-10-04 14:37:52.727] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3275 us
+[2026-10-04 14:37:52.760] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3300 us
+[2026-10-04 14:37:52.789] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3325 us
+[2026-10-04 14:37:52.820] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3350 us
+[2026-10-04 14:37:52.850] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3375 us
+[2026-10-04 14:37:52.879] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3400 us
+[2026-10-04 14:37:52.908] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3425 us
+[2026-10-04 14:37:52.939] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3450 us
+[2026-10-04 14:37:52.969] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3475 us
+[2026-10-04 14:37:53.003] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3500 us
+[2026-10-04 14:37:53.034] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3525 us
+[2026-10-04 14:37:53.064] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3550 us
+[2026-10-04 14:37:53.094] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3575 us
+[2026-10-04 14:37:53.125] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3600 us
+[2026-10-04 14:37:53.154] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3625 us
+[2026-10-04 14:37:53.183] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3650 us
+[2026-10-04 14:37:53.220] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3675 us
+[2026-10-04 14:37:53.245] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3700 us
+[2026-10-04 14:37:53.278] [info] [thread 14691] [daheng_demo.cpp AddExposureTime:130] 曝光时间 -> 3725 us
+[2026-10-04 14:37:53.489] [warning] [thread 14691] [daheng_demo.cpp AddGamma:163] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:37:53.989] [warning] [thread 14691] [daheng_demo.cpp AddGamma:163] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:37:54.019] [warning] [thread 14691] [daheng_demo.cpp AddGamma:163] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:37:54.049] [warning] [thread 14691] [daheng_demo.cpp AddGamma:163] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:37:54.080] [warning] [thread 14691] [daheng_demo.cpp AddGamma:163] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:37:54.695] [warning] [thread 14691] [daheng_demo.cpp AddGamma:163] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:37:54.945] [warning] [thread 14691] [daheng_demo.cpp AddGamma:163] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:37:55.167] [warning] [thread 14691] [daheng_demo.cpp AddGamma:163] GXGetFloatValue Gamma 失败 (status = -12): {-12}{__GetGenAPINode:line[1152]}{The feature "Gamma" is not implemented}
+[2026-10-04 14:37:59.506] [info] [thread 14691] [daheng_demo.cpp main:410] 相机已关闭

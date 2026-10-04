@@ -1,4 +1,0 @@
-/home/zhongchengyi/Desktop/desktop/RM/build/CMakeFiles/opencv_demo.dir
-/home/zhongchengyi/Desktop/desktop/RM/build/CMakeFiles/my_daheng.dir
-/home/zhongchengyi/Desktop/desktop/RM/build/CMakeFiles/edit_cache.dir
-/home/zhongchengyi/Desktop/desktop/RM/build/CMakeFiles/rebuild_cache.dir

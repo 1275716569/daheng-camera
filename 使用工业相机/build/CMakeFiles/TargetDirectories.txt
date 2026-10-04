@@ -1,0 +1,5 @@
+/home/zhongchengyi/Desktop/培训/使用工业相机/build/CMakeFiles/video_demo.dir
+/home/zhongchengyi/Desktop/培训/使用工业相机/build/CMakeFiles/daheng_demo.dir
+/home/zhongchengyi/Desktop/培训/使用工业相机/build/CMakeFiles/daheng_test.dir
+/home/zhongchengyi/Desktop/培训/使用工业相机/build/CMakeFiles/edit_cache.dir
+/home/zhongchengyi/Desktop/培训/使用工业相机/build/CMakeFiles/rebuild_cache.dir
