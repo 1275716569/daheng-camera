@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhongchengyi/Desktop/培训/使用工业相机
+CMAKE_SOURCE_DIR = /home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhongchengyi/Desktop/培训/使用工业相机/build
+CMAKE_BINARY_DIR = /home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongchengyi/Desktop/培训/使用工业相机/build/CMakeFiles /home/zhongchengyi/Desktop/培训/使用工业相机/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build/CMakeFiles /home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongchengyi/Desktop/培训/使用工业相机/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,6 +115,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named rm_log
+
+# Build rule for target.
+rm_log: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rm_log
+.PHONY : rm_log
+
+# fast build rule for target.
+rm_log/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_log.dir/build.make CMakeFiles/rm_log.dir/build
+.PHONY : rm_log/fast
 
 #=============================================================================
 # Target rules for targets named video_demo
@@ -203,6 +216,30 @@ daheng_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/daheng_test.dir/build.make CMakeFiles/daheng_test.dir/daheng_test.cpp.s
 .PHONY : daheng_test.cpp.s
 
+home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.o: home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.o
+.PHONY : home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.o
+
+# target to build an object file
+home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_log.dir/build.make CMakeFiles/rm_log.dir/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.o
+.PHONY : home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.o
+
+home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.i: home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.i
+.PHONY : home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.i
+
+# target to preprocess a source file
+home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_log.dir/build.make CMakeFiles/rm_log.dir/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.i
+.PHONY : home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.i
+
+home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.s: home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.s
+.PHONY : home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.s
+
+# target to generate assembly for a file
+home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rm_log.dir/build.make CMakeFiles/rm_log.dir/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.s
+.PHONY : home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.s
+
 video_demo.o: video_demo.cpp.o
 .PHONY : video_demo.o
 
@@ -237,6 +274,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... daheng_demo"
 	@echo "... daheng_test"
+	@echo "... rm_log"
 	@echo "... video_demo"
 	@echo "... daheng_demo.o"
 	@echo "... daheng_demo.i"
@@ -244,6 +282,9 @@ help:
 	@echo "... daheng_test.o"
 	@echo "... daheng_test.i"
 	@echo "... daheng_test.s"
+	@echo "... home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.o"
+	@echo "... home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.i"
+	@echo "... home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.s"
 	@echo "... video_demo.o"
 	@echo "... video_demo.i"
 	@echo "... video_demo.s"

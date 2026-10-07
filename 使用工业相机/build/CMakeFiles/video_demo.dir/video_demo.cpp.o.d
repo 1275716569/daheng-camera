@@ -1,5 +1,5 @@
 CMakeFiles/video_demo.dir/video_demo.cpp.o: \
- /home/zhongchengyi/Desktop/培训/使用工业相机/video_demo.cpp \
+ /home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/video_demo.cpp \
  /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \

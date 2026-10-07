@@ -1,0 +1,6 @@
+/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build-check/CMakeFiles/rm_log.dir
+/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build-check/CMakeFiles/video_demo.dir
+/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build-check/CMakeFiles/daheng_demo.dir
+/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build-check/CMakeFiles/daheng_test.dir
+/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build-check/CMakeFiles/edit_cache.dir
+/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build-check/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
-# Install script for directory: /home/zhongchengyi/Desktop/培训/使用工业相机
+# Install script for directory: /home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zhongchengyi/Desktop/培训/使用工业相机/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

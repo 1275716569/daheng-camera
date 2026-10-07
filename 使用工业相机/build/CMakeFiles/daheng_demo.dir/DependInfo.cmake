@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zhongchengyi/Desktop/培训/使用工业相机/daheng_demo.cpp" "CMakeFiles/daheng_demo.dir/daheng_demo.cpp.o" "gcc" "CMakeFiles/daheng_demo.dir/daheng_demo.cpp.o.d"
+  "/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/daheng_demo.cpp" "CMakeFiles/daheng_demo.dir/daheng_demo.cpp.o" "gcc" "CMakeFiles/daheng_demo.dir/daheng_demo.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/build/CMakeFiles/rm_log.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

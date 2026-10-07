@@ -1,0 +1,2 @@
+/usr/bin/ar qc librm_log.a CMakeFiles/rm_log.dir/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用日志库/util/rm_log/src/rm_log.cpp.o
+/usr/bin/ranlib librm_log.a

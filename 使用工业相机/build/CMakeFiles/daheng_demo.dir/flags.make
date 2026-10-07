@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/zhongchengyi/Desktop/培训/使用工业相机/include -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/include -I/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/../使用日志库/util -I/home/zhongchengyi/Desktop/desktop/RM/daheng_crema/使用工业相机/../使用日志库/util/rm_log/inlcude -isystem /usr/local/include/opencv4
 
 CXX_FLAGS = -std=gnu++17
 
